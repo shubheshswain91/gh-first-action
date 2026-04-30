@@ -8,3 +8,7 @@ jobs:
         run: echo "Hello World!"
       - name: Print goodbye
         run: echo "Done - bye"
+      - name: Print additional sentences
+        run: |
+          echo "Don't forget to clean up you branch"
+          echo "Don't forget to write the report"
